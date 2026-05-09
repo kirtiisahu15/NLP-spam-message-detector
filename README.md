@@ -1,6 +1,6 @@
-## 📩 NLP Spam Message Detector
+# 📩 NLP Spam Message Detector
 
-### 📌 Project Overview
+## 📌 Project Overview
 
 This project is based on Machine Learning and Natural Language Processing (NLP) to detect whether an SMS message is Spam or Normal Message.
 The model analyzes SMS text using various NLP techniques like text preprocessing, tokenization, stopword removal, stemming, and CountVectorizer to accurately classify messages.
@@ -8,7 +8,7 @@ The model analyzes SMS text using various NLP techniques like text preprocessing
 This project is beginner-friendly and demonstrates the complete workflow of a real-world NLP classification project using Python and Scikit-learn.
 
 
-### 🚀 Features
+## 🚀 Features
 
 -✅ SMS Spam Detection
 
@@ -25,7 +25,7 @@ This project is beginner-friendly and demonstrates the complete workflow of a re
 -✅ Clean and Simple Project Structure
 
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python
 
@@ -44,7 +44,7 @@ Jupyter Notebook
 NLP (Natural Language Processing)
 
 
-### 📊 Dataset
+## 📊 Dataset
 
 Dataset File: spam.csv
 
@@ -61,13 +61,13 @@ result
 message
 
 
-### ⚙️ NLP & Machine Learning Workflow
+## ⚙️ NLP & Machine Learning Workflow
 
-1️⃣ Data Loading
+#### 1️⃣ Data Loading
 
 Dataset loaded using Pandas
 
-2️⃣ Text Preprocessing
+#### 2️⃣ Text Preprocessing
 
 Performed NLP preprocessing techniques:
 
@@ -81,17 +81,17 @@ Removing Stopwords
 
 Stemming
 
-3️⃣ Text Vectorization
+#### 3️⃣ Text Vectorization
 
 Converted text into numerical format using:
 
 CountVectorizer
 
-4️⃣ Machine Learning Model
+#### 4️⃣ Machine Learning Model
 
 Model trained using Scikit-learn classification algorithms.
 
-5️⃣ Model Saving
+#### 5️⃣ Model Saving
 
 Saved:
 
@@ -101,7 +101,7 @@ Count Vectorized File (vectorized.pkl)
 
 using Pickle.
 
-6️⃣ Prediction
+#### 6️⃣ Prediction
 
 Predicts whether a new SMS message is:
 
@@ -110,38 +110,38 @@ Predicts whether a new SMS message is:
 🚨 Spam Message
 
 
-### 📸 Screenshots
+## 📸 Screenshots
 
-📊 Dataset Preview
+#### 📊 Dataset Preview
 
 ![Dataset Preview](Screenshots/dataset.jpeg)
 
-⚙️ NLP Preprocessing
+#### ⚙️ NLP Preprocessing
 
 ![NLP Preprocessing](Screenshots/preprocessing.jpeg)
 
-📈 Model Prediction
+#### 📈 Model Prediction
 
 ![Model Prediction](Screenshots/normal_msg.jpeg)
 
 ![Model Prediction](Screenshots/spam_msg.jpeg)
 
 
-### ▶️How to Run
+## ▶️How to Run
 
-1️⃣ Clone the Repository
+#### 1️⃣ Clone the Repository
 
 git clone https://github.com/kirtiisahu15/NLP-Spam-Message-Detector.git
 
-2️⃣ Open Project Folder
+#### 2️⃣ Open Project Folder
 
 cd NLP-Spam-Message-Detector
 
-3️⃣ Install Dependencies
+#### 3️⃣ Install Dependencies
 
 pip install pandas numpy nltk scikit-learn
 
-4️⃣ Run the Notebook
+#### 4️⃣ Run the Notebook
 
 jupyter notebook
 
@@ -150,7 +150,7 @@ Open:
 spam_ham_project.ipynb
 
 
-### 💡 Real World Use Case
+## 💡 Real World Use Case
 
 This project can help:
 
@@ -165,7 +165,7 @@ Fraud & Scam Detection Systems
 to automatically detect unwanted spam messages.
 
 
-### ⚠️ Important Notes
+## ⚠️ Important Notes
 
 Install all required libraries before running
 
@@ -177,7 +177,7 @@ Avoid uploading very large files to GitHub
 
 
 
-### 🌟 Future Improvements
+## 🌟 Future Improvements
 
 Deploy using Flask or Streamlit
 
@@ -190,6 +190,6 @@ Multi-language Spam Detection
 Real-time Web Application
 
 
-### 👩‍💻 Author
+## 👩‍💻 Author
 
 Kirti Sahu
